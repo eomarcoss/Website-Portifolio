@@ -8,13 +8,7 @@ Conteúdo utilizado para demonstração — **totalmente fictício**.
 ## 🚀 Como Rodar o Projeto
 
 1. Clone ou baixe o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
 2. Entre na pasta do projeto:
-   ```bash
-   cd seu-repositorio
-   ```
 3. Abra o arquivo `index.html` no seu navegador.
 
 ---
