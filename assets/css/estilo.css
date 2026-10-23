@@ -242,6 +242,30 @@ h3{
     opacity: 0.6;
 }
 
+.projeto-galeria {
+    display: flex;
+    gap: 1.2em;
+    margin-top: 1.5em;
+    flex-wrap: wrap;
+}
+
+.projeto-galeria img {
+    width: 100%;
+    max-width: 48%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.projeto-galeria img:hover {
+    transform: scale(1.03);
+}
+
+.projeto-galeria img:only-child {
+    max-width: 100%;
+}
+
 h1{
     font-weight: 900;
 }
@@ -264,6 +288,15 @@ h1{
 
     .sobre-mim-info p{
         width: 100%;
+    }
+
+    .projeto-galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projeto-galeria img {
+        max-width: 100%;
     }
 }
 
